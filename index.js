@@ -6,4 +6,8 @@ app.get("/", (req, res) => {
   res.send("首頁 dev 123");
 });
 
+app.get("/hui", (req, res) => {
+  res.send("hui的首頁");
+});
+
 app.listen(3005, () => {});
