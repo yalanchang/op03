@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+
+# Caches
+.npm
+.eslintcache
+.cache/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
